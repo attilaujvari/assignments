@@ -58,23 +58,25 @@ if ((1 <= 2 && 2 === 4) || ((3*4 > 10) && (5+10 > 10))){
 // Write an if statement that checks to see if "dog" is a string
 if (typeof "dog" === "string"){
     console.log("dog is a string")
-} 
+} else {
+    console.log("dog is not a string")
+}
 // Write an if statement that checks to see if "true" is a boolean
-if (typeof true === "boolean"){
-    
+if (typeof "true" === "boolean"){
+    console.log("yah, it's a boolean")
+} else {
+    console.log("not a boolean")
 }
 // Write an if statement that checks to see if a variable has been defined or not
 if (typeof variable === "undefined"){
-    
+    console.log("variable is undefined")
 } 
 // Write an if statement comparing letters to numbers using < and >. Try to figure out what letters are going to be "greater than" other numbers or letters. For example: is "s" greater than 12?
-if ("s" > 12){
-    console.log("The Unicode value of the letter is greater than the number")
-} else{
-    console.log("The Unicode value of the letter is not greater than the number")
-}
+if ("s" > 12){}
+/*JS does not coerces conversion of number or other characters to Unicode values. Therefore, it cannot compare (or, result in 'false') numbers to letters. However, it does compare letters with A starting at 0.*/
+
 //     Write a ternary statement that console.logs whether a number is odd or even. For example:
-     var myNum = 10;
+    var myNum = 10;
     myNum % 2 >0
     ? console.log("The number is odd")
     : console.log("The number is even")
