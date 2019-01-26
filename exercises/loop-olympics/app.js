@@ -57,7 +57,7 @@ if ((1 <= 2 && 2 === 4) || ((3*4 > 10) && (5+10 > 10))){
 /////////////////////////////////////// Gold
 // Write an if statement that checks to see if "dog" is a string
 if (typeof "dog" === "string"){
-    
+    console.log("dog is a string")
 } 
 // Write an if statement that checks to see if "true" is a boolean
 if (typeof true === "boolean"){
