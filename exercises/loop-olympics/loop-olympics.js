@@ -126,10 +126,9 @@ var grid = [[0, 1, 2],
             [0, 0, 0],
             [0, 5, 1]];
 
-for (i = 0; i < grid.length; i++){
-    grid[i].fill('x');
+//for (i = 0; i < grid.length; i++){
     for (j = 0; j < grid.length; j++){
         grid[j].fill('x');
-    }
+    //}
 }
 console.log(grid);
