@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7a4c6b8-7f8b-4a62-bae9-036a0d31d73f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/even-odd-looping.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loop-arrays-practice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loop-olympics.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/if-olympics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loop-arrays-practice.js" beforeDir="false" afterPath="$PROJECT_DIR$/loop-arrays-practice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../projects" beforeDir="false" afterPath="$PROJECT_DIR$/../../projects" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,25 +18,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/even-odd-looping.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/loop-arrays-practice.js">
+        <entry file="file://$PROJECT_DIR$/loop-olympics.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="72" column="19" lean-forward="true" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+            <state relative-caret-position="343">
+              <caret line="129" column="22" lean-forward="true" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/OneDrive/V School/Pre-course project/app.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -49,6 +44,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>arr</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -58,6 +58,7 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/even-odd-looping.js" />
         <option value="$PROJECT_DIR$/loop-arrays-practice.js" />
+        <option value="$PROJECT_DIR$/loop-olympics.js" />
       </list>
     </option>
   </component>
@@ -68,9 +69,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
+    <option name="x" value="50" />
     <option name="y" value="23" />
-    <option name="width" value="1103" />
+    <option name="width" value="1109" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -111,7 +112,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.loop-arrays-practice.js">
+  <component name="RunManager" selected="Node.js.loop-olympics.js">
     <configuration name="even-odd-looping.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/even-odd-looping.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -121,8 +122,12 @@
     <configuration name="loop-arrays-practice.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/loop-arrays-practice.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="loop-olympics.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/loop-olympics.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.loop-olympics.js" />
         <item itemvalue="Node.js.loop-arrays-practice.js" />
         <item itemvalue="Node.js.even-odd-looping.js" />
         <item itemvalue="Node.js.if-olympics.js" />
@@ -139,7 +144,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548450714447</updated>
-      <workItem from="1548450715592" duration="9498000" />
+      <workItem from="1548450715592" duration="19463000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1548458888565</created>
@@ -148,18 +153,25 @@
       <option name="project" value="LOCAL" />
       <updated>1548458888565</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".">
+      <created>1548540031260</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548540031261</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9498000" />
+    <option name="totallyTimeSpent" value="19463000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="23" width="1103" height="877" extended-state="0" />
+    <frame x="50" y="23" width="1109" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22643253" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22518383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -168,7 +180,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26496816" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26624203" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26496816" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -184,10 +196,32 @@
     <MESSAGE value="." />
     <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/loop-olympics.js</url>
+          <line>128</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/loop-arrays-practice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-404">
+          <caret line="41" column="98" lean-forward="true" selection-start-line="41" selection-start-column="98" selection-end-line="41" selection-end-column="98" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/if-olympics.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
+        <state relative-caret-position="30">
           <caret line="60" column="8" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
         </state>
       </provider>
@@ -199,10 +233,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loop-arrays-practice.js">
+    <entry file="file://$USER_HOME$/OneDrive/V School/Pre-course project/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loop-olympics.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="72" column="19" lean-forward="true" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+        <state relative-caret-position="343">
+          <caret line="129" column="22" lean-forward="true" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

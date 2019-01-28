@@ -2,7 +2,7 @@
 // Loop through the following array and count how many "computers" there are. Log the final count:
 
 var officeItems = ["stapler", "monitor", "computer", "desk", "lamp", "computer", "lamp", "stapler", "computer",  "computer"];
-var count = null;
+var count = 0;
 
 for (i = 0; i < officeItems.length; i++){
     if (officeItems[i] === "computer") {
