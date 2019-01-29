@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: black;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+button{
+    margin: 0 20px;
+}
+
+
+h1{
+    font-size: 6vw;
+    text-align: center;
+}
+
+h3{
+    font-size: 3vw;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    padding: 5px;
+}
+
+img{
+    max-width: 400px;
+    height: auto;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+}
+article{
+    overflow: auto;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.published{
+    text-align: right;
+    font-size: 1.5vw;
+}

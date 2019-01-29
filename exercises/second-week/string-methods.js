@@ -27,6 +27,7 @@ function capitalize(a) {
 var words = a.split(' ');
     for (i = 0; i < words.length; i++){
         words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1)
+        // or      words[i][0].toUppercase()   //////////////////////////////
         words2 = words.join(' ')
     }
     console.log(words2)

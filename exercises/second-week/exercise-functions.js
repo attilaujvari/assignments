@@ -51,3 +51,9 @@ function fibonacci(num){
 }
 fibonacci(19)
 ////////////////////////////
+//Skipping quadratic problem, that's just using math functions
+////////////////////////////
+function frequency(str) {
+    frequentLetter = '';
+
+}
