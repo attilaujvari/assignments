@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
+#franceFlag div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: black 2px solid;
+    width: 200px;
+    height: 100px;
+    /*background-color: deepskyblue;*/
+}

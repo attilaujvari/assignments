@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Form</title>
+</head>
+<body>
+    <form name="travelForm">
+        First name: <input type="text" name="fName">
+        Last name: <input type="text" name="lName"><br>
+        Age: <input type="number" name="age"><br>
+        Gender:<br>
+            Male: <input type="radio" value="Male" name="gender">
+            Female: <input type="radio" value="Female" name="gender">
+            Other: <input type="radio" value="Other" name="gender"><br>
+        Destination:
+        <select name="destination" id="destination">
+            <option value="Badab-e-Surt, Iran">Badab-e-Surt, Iran</option>
+            <option value="The Bermuda Triangle, North Atlantic Ocean">The Bermuda Triangle, North Atlantic Ocean</option>
+            <option value="Whale Bone Alley, Siberia">Whale Bone Alley, Siberia</option>
+            <option value="Cat Island, Japan">Cat Island, Japan</option>
+            <option value="Thor’s Well, Oregon, USA">Thor’s Well, Oregon, USA</option>
+        </select>
+        <br>
+        Dietary restriction(s):
+            Vegan <input type="checkbox" value="Vegan" name="diet">
+            Vegetarian <input type="checkbox" value="Vegetarian" name="diet">
+            Pescetarian <input type="checkbox" value="Pescetarian" name="diet">
+            Fruitarian <input type="checkbox" value="Fruitarian" name="diet">
+            Kangatarian <input type="checkbox" value="Kangatarian" name="diet">
+            Pollotarian <input type="checkbox" value="Pollotarian" name="diet">
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>

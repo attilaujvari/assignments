@@ -1,19 +1,37 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    background-color: #204E5F;
+    color: #EDF7F5;
+    font-family: "Book Antiqua";
 }
-
+.row{
+    display: flex;
+}
+.column{
+    display: flex;
+}
 nav{
-    background-color: black;
+    background-color: #FF8984;
     padding: 10px;
     position: sticky;
     top: 0;
     text-align: center;
+    border-radius: 0 0 15px 15px;
+    font-size: 2vw;
 }
 button{
     margin: 0 20px;
+    border-radius: 10px;
+    border-color: #79A7A8;
+    transition-duration: 0.4s;
+    font-size: 16px;
+    padding: 10px;
 }
 
+button:hover{
+    background-color: #79A7A8;
+}
 
 h1{
     font-size: 6vw;
