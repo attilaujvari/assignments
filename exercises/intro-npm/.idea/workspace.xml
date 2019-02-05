@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6195d161-7da3-44c3-880f-9fc5dc9f3776" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../intro-npm/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../intro-npm/.idea/vagrant.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../intro-npm/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../intro-npm/javas-calculator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css-wars/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../css-wars/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b8a1cc10-b263-48c0-a63e-906087a5c89f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vagrant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javas-calculator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dom-practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dom-practice/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../event-listeners/events/keypress/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../event-listeners/events/keypress/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../event-listeners/events/mousemove/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../event-listeners/events/mousemove/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise-loops/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise-loops/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intro-npm/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-npm/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intro-npm/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-npm/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../no-duplicates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../no-duplicates/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../responsive-color/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../responsive-color/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../second-week/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../second-week/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../uptown-funk/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../uptown-funk/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../projects" beforeDir="false" afterPath="$PROJECT_DIR$/../../projects" afterDir="false" />
@@ -34,19 +30,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="340">
+              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/style.css">
+        <entry file="file://$PROJECT_DIR$/javas-calculator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+            <state relative-caret-position="442">
+              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -56,8 +52,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -67,8 +62,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/javas-calculator.js" />
       </list>
     </option>
   </component>
@@ -94,8 +90,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="responsive-color" type="b2602c69:ProjectViewProjectNode" />
-              <item name="responsive-color" type="462c0819:PsiDirectoryNode" />
+              <item name="intro-npm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="intro-npm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -105,13 +101,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -126,12 +120,12 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/responsive-color/index.html" useBuiltInWebServerPort="true">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.app.js" />
       </list>
     </recent_temporary>
   </component>
@@ -140,32 +134,40 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6195d161-7da3-44c3-880f-9fc5dc9f3776" name="Default Changelist" comment="" />
-      <created>1549317172491</created>
+      <changelist id="b8a1cc10-b263-48c0-a63e-906087a5c89f" name="Default Changelist" comment="" />
+      <created>1549318824258</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1549317172491</updated>
-      <workItem from="1549317173695" duration="5075000" />
+      <updated>1549318824258</updated>
+      <workItem from="1549318825427" duration="6233000" />
     </task>
+    <task id="LOCAL-00001" summary="random">
+      <created>1549318879615</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549318879615</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5075000" />
+    <option name="totallyTimeSpent" value="6233000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="23" width="851" height="1057" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27951807" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939759" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32953367" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32953367" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.1253886" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32953367" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -177,18 +179,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="random" />
+    <option name="LAST_COMMIT_MESSAGE" value="random" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/node_modules/readline-sync/LICENSE-MIT">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+        <state relative-caret-position="340">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javas-calculator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
         </state>
       </provider>
     </entry>

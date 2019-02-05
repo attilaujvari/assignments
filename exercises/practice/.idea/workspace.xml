@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acbed670-ad23-4309-a1c3-6ccd202fe941" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../exercise-loops/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise-loops/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../forception/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../forception/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../event-listeners/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../event-listeners/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-npm/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-npm/.idea/vagrant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-npm/javas-calculator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-npm/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-npm/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-npm/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-npm/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../responsive-color/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../responsive-color/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../projects" beforeDir="false" afterPath="$PROJECT_DIR$/../../projects" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,7 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,6 +67,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -79,7 +79,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -122,23 +121,20 @@
       <option name="presentableId" value="Default" />
       <updated>1549064067280</updated>
       <workItem from="1549064068456" duration="2098000" />
+      <workItem from="1549324189324" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2098000" />
+    <option name="totallyTimeSpent" value="2104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="23" width="950" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497309" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32953367" />
@@ -146,6 +142,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -160,7 +160,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app.js</url>
           <line>62</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

@@ -1,21 +1,58 @@
 *{
-    margin: 0 auto;
+    margin: 0;
     box-sizing: border-box;
+}
+body{
+    width: 75%;
 }
 
 .pink{
-    width: 400pt;
+    width: 100%;
     height: 80pt;
     background-color: #F5C6D6;
+    border: white 2px solid;
 }
 .ruby{
-    position: center;
-    margin: auto;
+    display:flex;
+   justify-content: center;
+    width: 100%;
 }
 .ruby div{
-    width: 100pt;
+    width: 25%;
     height: 80pt;
     background-color: #EE2E84;
-    display: inline-flex;
-
+    border: white 2px solid;
+}
+.teal{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+.teal div{
+    width: 50%;
+    height: 80pt;
+    background-color: #85CFD8;
+    border: white 2px solid;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+#green{
+    width: 75%;
+    height: 80pt;
+    background-color: #8DC63F;
+    border: white 2px solid;
+}
+#mustard{
+    width: 25%;
+    height: 80pt;
+    background-color: #E76E34;
+    border: white 2px solid;
+}
+@media (max-width: 768px) {
+    #green, #mustard, .ruby, .bottom, .teal, .ruby>div, .teal>div{
+        display: block;
+        width: 100%;
+    }
 }

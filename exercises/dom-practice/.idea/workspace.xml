@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="048245c1-630c-42b8-8174-e52043063a4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../array-methods/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../array-methods/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../no-duplicates/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../no-duplicates/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css-flags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../css-flags/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design-blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../design-blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design-blog/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../design-blog/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-npm/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-npm/.idea/vagrant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-npm/javas-calculator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event-listeners/events/keypress/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../event-listeners/events/keypress/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event-listeners/events/mousemove/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../event-listeners/events/mousemove/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise-loops/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise-loops/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-npm/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-npm/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-npm/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-npm/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../responsive-color/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../responsive-color/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uptown-funk/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../uptown-funk/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../projects" beforeDir="false" afterPath="$PROJECT_DIR$/../../projects" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,7 +28,7 @@
     <SUITE FILE_PATH="coverage/dom_practice$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1548868863019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -38,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="238">
               <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
             </state>
           </provider>
@@ -75,7 +78,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,6 +89,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,22 +137,20 @@
       <option name="presentableId" value="Default" />
       <updated>1548866467410</updated>
       <workItem from="1548866468569" duration="3750000" />
+      <workItem from="1549324260698" duration="3000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3750000" />
+    <option name="totallyTimeSpent" value="3753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="23" width="950" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2555066" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25511304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32953367" />
@@ -157,27 +158,31 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32929516" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32929516" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
