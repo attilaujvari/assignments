@@ -1,0 +1,54 @@
+*{
+    margin: 0 auto;
+}
+h1, h2{
+    font-family: Book Antiqua;
+    text-align: center;
+}
+h1{
+    font-size: 6vw;
+}
+h2{
+    font-size: 3vw;
+}
+
+#cheep-cheeps div.pic{
+    max-width: 100pt;
+    height: 57%;
+}
+
+#baddiesBS {
+    display: flex;
+    flex-wrap: wrap;
+}
+#formBaddies div{
+    padding: 15pt;
+    text-align: center;
+
+}
+.pic img{
+    max-width: 100pt;
+    height: auto;
+}
+img{
+    max-width: 20pt;
+    height: auto;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background: rgba(76, 175, 80, 0.3);
+}
+#left{
+    display: inline-block;
+    position: absolute;
+    left: 15pt;
+    bottom: 2pt;
+}
+#right{
+    display: inline-flex;
+    position: absolute;
+    right: 15pt;x
+    bottom: 2pt;
+}
