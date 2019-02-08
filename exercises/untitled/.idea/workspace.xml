@@ -2,38 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b8a17c9-d29f-4e36-9d5b-95624e2c5db9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../array-methods/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../array-methods/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dom-practice/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../event-listeners/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../event-listeners/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../event-listeners/events/keypress/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../event-listeners/events/mousemove/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../event-listeners/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../event-listeners/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../no-duplicates/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../no-duplicates/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simple-calculator/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simple-calculator/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simple-calculator/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simple-calculator/.idea/simple-calculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simple-calculator/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simple-calculator/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simple-calculator/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simple-calculator/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simple-calculator/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simple-calculator/pointer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simple-calculator/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uptown-funk/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uptown-funk/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css-flags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../css-flags/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design-blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../design-blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design-blog/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../design-blog/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../projects" beforeDir="false" afterPath="$PROJECT_DIR$/../../projects" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bugs-on-a-plane/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-time/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-time/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-time/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-time/research.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-time/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../employee-records/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../employee-records/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../random-password/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../random-password/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../random-password/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../random-password/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design-blog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../design-blog/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dom-practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dom-practice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../escape-room/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../escape-room/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../escape-room/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../escape-room/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../escape-room/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../escape-room/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event-listeners/events/mousemove/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../event-listeners/events/mousemove/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-calculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+            <state relative-caret-position="289">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -58,17 +46,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="170">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="30" column="67" lean-forward="true" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+            <state relative-caret-position="595">
+              <caret line="30" column="79" lean-forward="true" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -103,7 +91,7 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="53" />
+    <option name="x" value="1018" />
     <option name="y" value="23" />
     <option name="width" value="853" />
     <option name="height" value="1057" />
@@ -114,6 +102,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,7 +114,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,17 +164,19 @@
       <workItem from="1548956914742" duration="247000" />
       <workItem from="1548960764137" duration="4987000" />
       <workItem from="1548973978285" duration="651000" />
+      <workItem from="1549392549476" duration="2257000" />
+      <workItem from="1549495665871" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5885000" />
+    <option name="totallyTimeSpent" value="8151000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="23" width="853" height="1057" extended-state="0" />
+    <frame x="1018" y="23" width="853" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1766827" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1766827" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -216,24 +206,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="170">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="30" column="67" lean-forward="true" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        <state relative-caret-position="595">
+          <caret line="30" column="79" lean-forward="true" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
         </state>
       </provider>
     </entry>

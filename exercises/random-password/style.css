@@ -1,0 +1,20 @@
+#seedBox{
+    height: 250pt;
+    width: 250pt;
+    border: black 2pt solid;
+}
+
+#output{
+    height: 25pt;
+    width: 150pt;
+    border: red 2pt solid;
+    margin-top: 100pt;
+}
+
+#flexB{
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    text-align: center;
+}

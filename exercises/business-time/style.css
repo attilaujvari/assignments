@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Book Antiqua";
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    background-color: rgba(121, 167, 168, .7);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+    z-index: 9999;
+}
+#researchMain{
+    display: flex;
+    flex-wrap: wrap;
+}
+#marketMain{
+    display: flex;
+    flex-wrap: wrap;
+}
+.price{
+    text-align: right;
+}
+article img{
+    width: 280px;
+}
+@media (max-width: 468px) {
+    nav{
+        background: none;
+        padding: 0;
+    }
+    nav button{
+        /*display: flex;*/
+        padding: 2px;
+        font-size: 2vw;
+        margin: 0 5px;
+        border-radius: 3px;
+        width: 15%;
+    }
+}
+button{
+    margin: 0 20px;
+    border-radius: 10px;
+    border-color: indianred;
+    transition-duration: 0.4s;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #79A7A8;
+}
+
+button:hover{
+    background-color: indianred;
+}
+
+#babyFart{
+    width: 50%;
+}
+
+#picFarbong{
+    width: 35%;
+    align-self: center;
+}
+
+.img-magnifier-container {
+    position: relative;
+}
+
+.img-magnifier-glass {
+    position: absolute;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    /*Set the size of the magnifier glass:*/
+    width: 150px;
+    height: 150px;
+}
+
+article{
+    width: 300px;
+    overflow: auto;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 20px;
+    margin: 15px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    z-index: 2;
+}
+#mainBlurb{
+    width: 75%;
+}
+#mainIntro{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 6vw;
+    text-align: center;
+}
+
+h2{
+    font-size: 4.5vw;
+    text-align: center;
+}
+
+h3{
+    font-size: 3vw;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    padding: 5px;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1549241520-425e3dfc01cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
