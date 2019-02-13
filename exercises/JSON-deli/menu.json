@@ -1,0 +1,18 @@
+{
+  "appetizers": [{
+    "name": "soup",
+    "ingredients": ["frog leg", "brains", "parsley"],
+    "description": ["It's a great soup. Entirely edible, made of human grade material. Gluten free."]
+  },
+    {
+      "name": "fried chicken noodle",
+      "ingredients": ["chicken", "noodle"],
+      "description": ["One piece of chicken (just the 'elbow'), and one piece of noodle fried together."]
+    }
+  ],
+  "cold sandwiches": [{
+    "name": "mystical turkey BLT",
+    "ingredients": ["unicorn-turkey blend", "wisp-essence","BLT"],
+    "description": ["A sandwich worthy of a true hero."]
+  }]
+}

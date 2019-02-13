@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45ef1356-8838-47e1-827e-d90f8b4e40fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JSON-deli/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSON-deli/menu.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dj-js2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dj-js2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dj-js2/style.css" afterDir="false" />
+    <list default="true" id="041bbf1b-a58c-4f52-8063-bb720d34d92d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pokemon-list/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pokemon-list/app.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pokemon-list/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../projects/array-higher-order/array-reduce.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../projects/array-higher-order/array-sort.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../projects/array-higher-order/wizard-battle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../projects/axios-todo/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../projects/axios-todo/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../projects/colossal-adventure-rpg/gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../projects/count-code/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../business-time/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-time/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uptown-funk/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../uptown-funk/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../projects/colossal-adventure-rpg/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../projects/colossal-adventure-rpg/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -31,24 +26,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app.js">
+        <entry file="file://$PROJECT_DIR$/menu.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+            <state relative-caret-position="153">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -56,7 +44,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/menu.json" />
       </list>
     </option>
   </component>
@@ -68,8 +56,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="56" />
-    <option name="y" value="23" />
-    <option name="width" value="853" />
+    <option name="y" value="203" />
+    <option name="width" value="873" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -78,25 +66,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="uptown-funk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uptown-funk" type="462c0819:PsiDirectoryNode" />
+              <item name="JSON-deli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSON-deli" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.github.izhangzhihao.rainbow.brackets.settings.RainbowConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -110,54 +98,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.app.js" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="45ef1356-8838-47e1-827e-d90f8b4e40fd" name="Default Changelist" comment="" />
-      <created>1548972250473</created>
+      <changelist id="041bbf1b-a58c-4f52-8063-bb720d34d92d" name="Default Changelist" comment="" />
+      <created>1549995234598</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1548972250473</updated>
-      <workItem from="1548972251634" duration="3293000" />
-      <workItem from="1549324219089" duration="6000" />
-      <workItem from="1549745188466" duration="20000" />
-      <workItem from="1550007329288" duration="2000" />
+      <updated>1549995234598</updated>
+      <workItem from="1549995235740" duration="747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3321000" />
+    <option name="totallyTimeSpent" value="747000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="23" width="853" height="877" extended-state="0" />
+    <frame x="56" y="203" width="873" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18870193" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26839378" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -167,10 +142,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/menu.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        <state relative-caret-position="153">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>

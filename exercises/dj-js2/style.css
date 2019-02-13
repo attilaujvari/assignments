@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    box-sizing: border-box;
+
+}
+body div{
+    height: 150pt;
+    width: 150pt;
+    border: black 1pt solid;
+    margin: 20pt;
+}
+
+#one:hover{
+    background-color: #79A7A8;
+    border: red 3pt dotted;
+    transition-duration: 1s;
+}
+
+#two:hover{
+    height: 100pt;
+    transition-duration: 2.5s;
+    background-color: yellow;
+}
+
+#three:hover{
+    margin: 50pt;
+    transition-duration: 1s;
+    background-color: black;
+}
+
+#four:hover{
+
+}
