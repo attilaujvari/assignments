@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    background-color: darkgrey;
 }
 body{
     margin: 0;
@@ -9,6 +8,7 @@ body{
     font-size: 1em;
     line-height: 1.5em;
     width: 100%;
+    background-color: #F3F0E5;
 }
 a{
     cursor: pointer;
@@ -29,9 +29,20 @@ h3,h4{
 #todo-container >div{
     justify-content: center;
 }
+.column-calendar{
+    background-image: url("./background.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /*box-shadow: inset 0 0 0 1000px*/
+        /*rgba(255,255,255,0.25);*/
+    border-radius: 10px;
+    border: 1px silver solid;
+    transition-duration: 0.5s;
+}
 #calendar-list{
     display: grid;
-    grid-template-columns: 200px;
+    grid-template-columns: 250px;
     grid-gap: 10px;
 }
 #calendar-list >div{
@@ -40,8 +51,32 @@ h3,h4{
 .date, .day{
     text-align: center;
 }
-.icon{
+.iconEdit, .iconDelete{
     max-width: 20px;
     max-height: 20px;
+    border-radius: 4px;
+    padding: 3px;
+    transition-duration: 0.5s;
 }
+.todo-item-list{
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr;
+}
+.iconEdit{
+    background-color:  rgba(255,132,10,0.1);
+    transition-duration: 0.5s;
+}
+.iconEdit:hover{
+    background-color:  rgba(255,132,10,0.6);
+    transition-duration: 0.5s;
+}
+.iconDelete:hover{
+    background-color:  rgba(255,10,10,0.6);
+    transition-duration: 0.5s;
+}
+.iconDelete{
+    background-color:  rgba(255,10,10,0.1);
+    transition-duration: 0.5s;
+}
+
 /*@media screen and (max-width: 768px) {}*/

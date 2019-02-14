@@ -11,11 +11,18 @@
     <h2 id="greeting"></h2>
 
     <div id="calendar-list">
+        <!--Past-->
         <section class="column-calendar">
-            <h3 class="day">Day head</h3>
-            <h4 class="date">Day date</h4>
+            <h3 class="day" id="yesterdayDay">Yesterday</h3>
+            <h4 class="date" id="yesterdayDate">Yesterday date</h4>
             <div class="todo-list ui-sortable">
-                <ul class="todo-item-list">
+                <ul class="todo-item-list-yesterday">
+                    <li class="todo-item"></li>
+                    <li class="todo-item"></li>
+                    <li class="todo-item"></li>
+                    <li class="todo-item"></li>
+                    <li class="todo-item"></li>
+                    <li class="todo-item"></li>
                     <li class="todo-item"></li>
                     <li class="todo-item"></li>
                     <li class="todo-item"></li>
@@ -26,27 +33,35 @@
         <section class="column-calendar">
             <h3 class="day" id="todayDay">Day head</h3>
             <h4 class="date" id="todayDate">Day date</h4>
-            <div id="todo-list ui-sortable">
-                <ul id="todo-item-list">
+            <div class="todo-list ui-sortable">
+                <ul class="todo-item-list">
                 </ul>
             </div>
         </section>
+        <!--Tomorrow-->
+        <section class="column-calendar">
+            <h3 class="day" id="tomorrowDay">Tomorrow</h3>
+            <h4 class="date" id="tomorrowDate">Tomorrow date</h4>
+            <div class="todo-list ui-sortable">
+                <ul class="todo-item-list-tomorrow">
+                    <li class="todo-item"></li>
+                    <li class="todo-item"></li>
+                    <li class="todo-item"></li>
+                    <li class="todo-item"></li>
+                    <li class="todo-item"></li>
+                    <li class="todo-item"></li>
+                    <li class="todo-item"></li>
+                    <li class="todo-item"></li>
+                    <li class="todo-item"></li>
+                </ul>
+            </div>
+        </section>
+        <!--Future-->
         <section class="column-calendar">
             <h3 class="day">Day head</h3>
             <h4 class="date">Day date</h4>
             <div class="todo-list ui-sortable">
-                <ul class="todo-item-list">
-                    <li class="todo-item"></li>
-                    <li class="todo-item"></li>
-                    <li class="todo-item"></li>
-                </ul>
-            </div>
-        </section>
-        <section class="column-calendar">
-            <h3 class="day">Day head</h3>
-            <h4 class="date">Day date</h4>
-            <div class="todo-list ui-sortable">
-                <ul class="todo-item-list">
+                <ul class="todo-item-list-future">
                     <li class="todo-item"></li>
                     <li class="todo-item"></li>
                     <li class="todo-item"></li>
