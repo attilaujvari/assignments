@@ -1,0 +1,21 @@
+body{
+    flex: auto;
+}
+body div{
+    margin: 20pt;
+}
+#button{
+    height: 150pt;
+    width: 200pt;
+    border: 2pt black solid;
+}
+#counter{
+    height: 20pt;
+    width: 30pt;
+    border: 2pt black solid;
+    text-align: center;
+    margin-left: 100pt;
+}
+#progressBar{
+    margin-left: 55pt;
+}

@@ -2,15 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Attila's Axios To-Do</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Attila's Axios To-do</title>
 </head>
 <body>
     <h1>Axios To-do list</h1>
+<div id="todo-container">
+    <h2 id="greeting"></h2>
+
+    <div id="calendar-list">
+        <section class="column-calendar">
+            <h3 class="day">Day head</h3>
+            <h4 class="date">Day date</h4>
+            <div class="todo-list ui-sortable">
+                <ul class="todo-item-list">
+                    <li class="todo-item"></li>
+                    <li class="todo-item"></li>
+                    <li class="todo-item"></li>
+                </ul>
+            </div>
+        </section>
+        <!--Today's segment-->
+        <section class="column-calendar">
+            <h3 class="day" id="todayDay">Day head</h3>
+            <h4 class="date" id="todayDate">Day date</h4>
+            <div id="todo-list ui-sortable">
+                <ul id="todo-item-list">
+                </ul>
+            </div>
+        </section>
+        <section class="column-calendar">
+            <h3 class="day">Day head</h3>
+            <h4 class="date">Day date</h4>
+            <div class="todo-list ui-sortable">
+                <ul class="todo-item-list">
+                    <li class="todo-item"></li>
+                    <li class="todo-item"></li>
+                    <li class="todo-item"></li>
+                </ul>
+            </div>
+        </section>
+        <section class="column-calendar">
+            <h3 class="day">Day head</h3>
+            <h4 class="date">Day date</h4>
+            <div class="todo-list ui-sortable">
+                <ul class="todo-item-list">
+                    <li class="todo-item"></li>
+                    <li class="todo-item"></li>
+                    <li class="todo-item"></li>
+                </ul>
+            </div>
+        </section>
+    </div>
 
 
 
+</div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    background-color: darkgrey;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Book Antiqua";
+    font-size: 1em;
+    line-height: 1.5em;
+    width: 100%;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+}
+h1{
+    font-size: 2em;
+    text-align: center;
+}
+h2{
+    font-size: 1.5em;
+    text-align: center;
+}
+h3,h4{
+    margin: 3px;
+}
+#todo-container >div{
+    justify-content: center;
+}
+#calendar-list{
+    display: grid;
+    grid-template-columns: 200px;
+    grid-gap: 10px;
+}
+#calendar-list >div{
+    position: relative;
+}
+.date, .day{
+    text-align: center;
+}
+.icon{
+    max-width: 20px;
+    max-height: 20px;
+}
+/*@media screen and (max-width: 768px) {}*/
