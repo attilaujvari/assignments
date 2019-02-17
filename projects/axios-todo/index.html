@@ -10,67 +10,45 @@
 <div id="todo-container">
     <h2 id="greeting"></h2>
 
+    <button id="open-button" class="open-button">Add todo</button>
+
     <div id="calendar-list">
-        <!--Past-->
-        <section class="column-calendar">
-            <h3 class="day" id="yesterdayDay">Yesterday</h3>
-            <h4 class="date" id="yesterdayDate">Yesterday date</h4>
-            <div class="todo-list ui-sortable">
-                <ul class="todo-item-list-yesterday">
-                    <li class="todo-item"></li>
-                    <li class="todo-item"></li>
-                    <li class="todo-item"></li>
-                    <li class="todo-item"></li>
-                    <li class="todo-item"></li>
-                    <li class="todo-item"></li>
-                    <li class="todo-item"></li>
-                    <li class="todo-item"></li>
-                    <li class="todo-item"></li>
-                </ul>
-            </div>
-        </section>
         <!--Today's segment-->
         <section class="column-calendar">
             <h3 class="day" id="todayDay">Day head</h3>
             <h4 class="date" id="todayDate">Day date</h4>
             <div class="todo-list ui-sortable">
-                <ul class="todo-item-list">
-                </ul>
+                <div id="todo-item-list">
+                </div>
             </div>
         </section>
-        <!--Tomorrow-->
-        <section class="column-calendar">
-            <h3 class="day" id="tomorrowDay">Tomorrow</h3>
-            <h4 class="date" id="tomorrowDate">Tomorrow date</h4>
-            <div class="todo-list ui-sortable">
-                <ul class="todo-item-list-tomorrow">
-                    <li class="todo-item"></li>
-                    <li class="todo-item"></li>
-                    <li class="todo-item"></li>
-                    <li class="todo-item"></li>
-                    <li class="todo-item"></li>
-                    <li class="todo-item"></li>
-                    <li class="todo-item"></li>
-                    <li class="todo-item"></li>
-                    <li class="todo-item"></li>
-                </ul>
-            </div>
-        </section>
-        <!--Future-->
-        <section class="column-calendar">
-            <h3 class="day">Day head</h3>
-            <h4 class="date">Day date</h4>
-            <div class="todo-list ui-sortable">
-                <ul class="todo-item-list-future">
-                    <li class="todo-item"></li>
-                    <li class="todo-item"></li>
-                    <li class="todo-item"></li>
-                </ul>
-            </div>
-        </section>
+
     </div>
 
+    <!--Todo popop form below-->
+<div class="form-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+        <h4 style="text-align: center">Add to your todo list</h4>
 
+        <label for="formInputTitle">Title</label>
+        <input type="text" placeholder="Title of todo item. Duh." name="formInputTitle" id="formInputTitle" required>
+
+        <label for="formInputCompleted">Completed</label>
+        <input type="checkbox" name="formInputCompleted" id="formInputCompleted">
+        <br>
+        <label for="formInputDescription">Description</label>
+        <input type="text" placeholder="Description of todo..." name="formInputDescription" id="formInputDescription">
+
+        <label for="formInputPrice">Price</label>
+        <input type="number" placeholder="Does it cost anything?" name="formInputPrice" id="formInputPrice">
+        <br>
+        <label for="formInputPicUrl">Image URL</label>
+        <input type="url" placeholder="Would you like to link a picture?" name="formInputPicUrl" id="formInputPicUrl">
+
+        <button type="submit" class="btn" id="submitBtn">Submit</button>
+        <button type="submit" class="btn cancel" id="cancelBtn">Close</button>
+    </form>
+</div>
 
 </div>
 

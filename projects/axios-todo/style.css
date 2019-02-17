@@ -1,14 +1,17 @@
 *{
     box-sizing: border-box;
+    font-family: "Book Antiqua", serif;
 }
 body{
     margin: 0;
     padding: 0;
-    font-family: "Book Antiqua";
     font-size: 1em;
     line-height: 1.5em;
     width: 100%;
-    background-color: #F3F0E5;
+    background-image: url("./background.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 a{
     cursor: pointer;
@@ -30,15 +33,10 @@ h3,h4{
     justify-content: center;
 }
 .column-calendar{
-    background-image: url("./background.svg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    /*box-shadow: inset 0 0 0 1000px*/
-        /*rgba(255,255,255,0.25);*/
+    background-color: rgba(243, 240, 229, 0.5);
+    backdrop-filter: blur(1px);
     border-radius: 10px;
     border: 1px silver solid;
-    transition-duration: 0.5s;
 }
 #calendar-list{
     display: grid;
@@ -58,12 +56,16 @@ h3,h4{
     padding: 3px;
     transition-duration: 0.5s;
 }
-.todo-item-list{
+.shit{
     display: grid;
     grid-template-columns: 6fr 1fr 1fr;
+    padding: 5px;
+    border: silver 1px solid;
+    margin: 2px;
+    border-radius: 4px;
 }
 .iconEdit{
-    background-color:  rgba(255,132,10,0.1);
+    background-color:  rgba(255,132,10,0.2);
     transition-duration: 0.5s;
 }
 .iconEdit:hover{
@@ -75,8 +77,75 @@ h3,h4{
     transition-duration: 0.5s;
 }
 .iconDelete{
-    background-color:  rgba(255,10,10,0.1);
+    background-color:  rgba(255,10,10,0.2);
     transition-duration: 0.5s;
 }
+.shit div{
+    margin-left: 15px;
+}
 
-/*@media screen and (max-width: 768px) {}*/
+
+/*Popup form elements below*/
+.open-button {
+    background-color: #BEB9A4;
+    color: white;
+    font-size: 1em;
+    padding: 16px 20px;
+    border: silver 2px solid;
+    cursor: pointer;
+    opacity: 0.95;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+    border-radius: 10px;
+}
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: rgba(190, 185, 164, 0.8);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    border-radius: 10px;
+}
+/* Full-width input fields */
+.form-container input[type=text] ,
+.form-container input[type=url],
+.form-container input[type=number]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: rgba(242, 237, 239, 0.9);
+    border-radius: 8px;
+}
+/* Set a style for the submit/login button */
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+    background-color: rgba(255,10,10,0.6);
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
