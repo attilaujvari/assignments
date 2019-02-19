@@ -89,7 +89,7 @@ function listTodos(todoItemData){
 }
 
 //   Axios functions   //
-// edit function
+// edit function to fetch data to edit
 function editFunc(event){
     event.preventDefault();
     let sessionPath = "https://api.vschool.io/attila/todo/" + event.target.parentNode.id;
@@ -98,27 +98,55 @@ function editFunc(event){
     document.getElementById("formInputDescription").value = "";
     document.getElementById("formInputPrice").value = "";
     document.getElementById("formInputPicUrl").value = "";
-    console.dir(document.getElementById("submitBtn"))
-    // document.getElementById("submitBtn").textContent = "Save";
-    openForm();
+    document.getElementById("submitBtn").textContent = "Save";
+    document.getElementById("submitBtn").style.backgroundColor = "rgba(255,132,10,0.6)";
+    document.getElementById("submitBtn").setAttribute("id","editBtn")
+
     axios.get(sessionPath).then(response => {
         const todoItemDataEdit = response.data;
-        console.log(todoItemDataEdit);
+        openForm();
         document.getElementById("formInputCompleted").checked = todoItemDataEdit.completed;
         document.getElementById("formInputTitle").value = todoItemDataEdit.title;
 
         if (todoItemDataEdit.description.length > 0){
             document.getElementById("formInputDescription").value = todoItemDataEdit.description;
         }
-    // undefined is not a number anyway, skipping over these issues for now
+    // throwing undefined when no price present is not a number; skipping for now
         document.getElementById("formInputPrice").value = todoItemDataEdit.price;
         if (todoItemDataEdit.imgUrl.length > 0){
             document.getElementById("formInputPicUrl").value = todoItemDataEdit.imgUrl;
         }
     }).catch((error) => console.log(error + "Error with fetching data to edit."));
 
-    // document.getElementById("submitBtn").innerText = "Submit";
+    // function to save edited data
+    // document.getElementById("editBtn").addEventListener("click",function (event) {
+    //     let sessionPath = "https://api.vschool.io/attila/todo/" + event.target.parentNode.id;
+    //     const editedTodo = {
+    //         completed: document.getElementById("formInputCompleted").checked,
+    //         title: document.getElementById("formInputTitle").value,
+    //         description: document.getElementById("formInputDescription").value,
+    //         price: document.getElementById("formInputPrice").value,
+    //         imgUrl: document.getElementById("formInputPicUrl").value
+    //     };
+    //
+    //
+    //     axios.put(sessionPath, editedTodo).then(response => {
+    //         todoList.innerHTML = "";
+    //         getData()
+    //     }).catch(err => console.log("edit request error"))
+    // });
+    //     // reset form
+    //     document.getElementById("formInputCompleted").checked = false;
+    //     document.getElementById("formInputTitle").value = "";
+    //     document.getElementById("formInputDescription").value = "";
+    //     document.getElementById("formInputPrice").value = "";
+    //     document.getElementById("formInputPicUrl").value = "";
+    // closeForm()
 }
+
+
+
+
 
 // delete function
 function deleteFunc(event) {
@@ -135,6 +163,9 @@ function openForm() {
 document.getElementById("cancelBtn").addEventListener("click",closeForm);
 function closeForm() {
     document.getElementById("myForm").style.display = "none";
+    document.getElementById("editBtn").setAttribute("id","submitBtn")
+    document.getElementById("submitBtn").textContent = "Submit";
+    document.getElementById("submitBtn").style.backgroundColor = "#4CAF50";
 }
 
 // submitting new to-do item

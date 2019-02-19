@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
 *{
     box-sizing: border-box;
 }
@@ -16,14 +17,105 @@ a{
 header{
     height: 230px;
     padding: 20px 0 70px 0;
-    background:  #2d6360 50% 0 url("/214/huntington.jpg");
+    text-align: center;
+    background-color: #2d6360;
     background-image:
-            url("/214/contours-opaque.png"),
-url("/214/noise.png"),
-url("/214/gridlines.png"),
-url("/214/huntington.jpg");
-    background-position: 0 0, 0 0, -5px -25px, 0 50%;
+            url("resources/contours-opaque.png"),
+            url("resources/noise.png"),
+            url("resources/gridlines.png"),
+            url("resources/huntington.jpg");
     background-repeat: repeat, repeat, repeat, no-repeat;
     background-size: auto, auto, auto, cover;
+}
+h1::before {
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    content: "";
+    width: 80px;
+    height: 80px;
+    margin: -20px 20px 0 0;
+    background-image: url("resources/enso.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.6;
+}
+h1{
+    border-bottom: none;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 3.2em;
+}
+h1, h2{
+    color: #fff;
+    font-weight: normal;
+}
+h2{
+    color: rgba(255,255,255,0.6);
+    font-size: 1.6em;
+    font-style: italic;
+}
+h3{
+    margin: 2em 0 0 0;
+    color: #2e484c;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.8em;
+    font-weight: normal;
+}
+p {
+    margin: 0.75em 0;
+    line-height: 2;
+}
+.mainContent >div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.mainSectionTwo{
+    background-color: rgba(138,188,159,0.5);
+    background-image: url("resources/contours-opaque.png"),
+        url("resources/gridlines-opaque.png"),
+        url("resources/bamboo.png");
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
+    background-attachment: scroll, scroll, fixed;
+}
+
+.mainBottom{
+    padding: 1em 12%;
+    color: rgba(255, 255, 255, 0.4);
+    background-color: #3e5d67;
+    background-attachment: fixed, fixed, fixed, scroll;
+    background-image: url("resources/contours@2x.png"), url("resources/gridlines.png"), url("resources/noise.png"), url("resources/koi.jpg");
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    background-size: auto, auto, auto, cover;
+    font-size: 2em;
+    font-style: italic;
     text-align: center;
+}
+
+.mainLinksDesigns{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.mainLinksResources{
+    background-color: rgba(138,188,159,0.5);
+    background-image: url("resources/bamboo.png");
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 600px){
+    #vanish{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1132px){
+    p{
+        font-size: 1.2em;
+    }
 }

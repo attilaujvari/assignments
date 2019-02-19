@@ -99,8 +99,9 @@ h3,h4{
     right: 28px;
     width: 280px;
     border-radius: 10px;
+    z-index: 1;
 }
-.form-container {
+.form-popup {
     max-width: 300px;
     padding: 10px;
     background-color: rgba(190, 185, 164, 0.8);
@@ -141,8 +142,19 @@ h3,h4{
 }
 
 /* Add a red background color to the cancel button */
-.form-container .cancel {
+#cancelBtn {
     background-color: rgba(255,10,10,0.6);
+    color: white;
+    padding: 16px 20px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+    border-radius: 10px;
+    font-size: 1em;
+}
+#cancelBtn:hover{
+    opacity: 1;
 }
 
 /* Add some hover effects to buttons */
