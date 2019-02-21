@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+h1,h3{
+text-align: center
+}
+p{
+    padding: 0.5em;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    height: 6em;
+    position: sticky;
+}
+.navbar >div{
+    margin: 0 2em;
+}
+.navToggler{
+    background-image: url("./navExpandIcon.png");
+    background-size: contain;
+    height: 4vw;
+    width: 4vw;
+    min-height: 24px;
+    min-width: 24px;
+    background-repeat: no-repeat;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    height: 6em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer >div{
+    margin: 0 2em;
+}
+.body{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 6em;
+}
+.picMain{
+    background-image: url("./picMain.jpeg");
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bodyPic{
+    grid-column: 1/2;
+    height: 250px;
+}
+@media only screen and (min-width: 500px){
+    .bodySide{
+        grid-column: 2/3;
+        grid-row: 1/9;
+    }
+    .body{
+        grid-template-columns: 3fr 1fr;
+    }
+
+}
+@media only screen and (min-width: 1024px) {
+    .bodyPic{
+        height: 500px;
+        transition: all 1s;
+    }
+}

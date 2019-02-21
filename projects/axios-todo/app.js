@@ -25,6 +25,7 @@ if (curHr >= 0 && curHr < 6) {
 }
 
 function getData(){
+    todoList.innerHTML = "";
 axios.get("https://api.vschool.io/attila/todo").then(response => {
     const todoItemData = response.data;
     listTodos(todoItemData)
@@ -118,30 +119,7 @@ function editFunc(event){
         }
     }).catch((error) => console.log(error + "Error with fetching data to edit."));
 
-    // function to save edited data
-    // document.getElementById("editBtn").addEventListener("click",function (event) {
-    //     let sessionPath = "https://api.vschool.io/attila/todo/" + event.target.parentNode.id;
-    //     const editedTodo = {
-    //         completed: document.getElementById("formInputCompleted").checked,
-    //         title: document.getElementById("formInputTitle").value,
-    //         description: document.getElementById("formInputDescription").value,
-    //         price: document.getElementById("formInputPrice").value,
-    //         imgUrl: document.getElementById("formInputPicUrl").value
-    //     };
-    //
-    //
-    //     axios.put(sessionPath, editedTodo).then(response => {
-    //         todoList.innerHTML = "";
-    //         getData()
-    //     }).catch(err => console.log("edit request error"))
-    // });
-    //     // reset form
-    //     document.getElementById("formInputCompleted").checked = false;
-    //     document.getElementById("formInputTitle").value = "";
-    //     document.getElementById("formInputDescription").value = "";
-    //     document.getElementById("formInputPrice").value = "";
-    //     document.getElementById("formInputPicUrl").value = "";
-    // closeForm()
+
 }
 
 
@@ -166,6 +144,7 @@ function closeForm() {
     document.getElementById("editBtn").setAttribute("id","submitBtn")
     document.getElementById("submitBtn").textContent = "Submit";
     document.getElementById("submitBtn").style.backgroundColor = "#4CAF50";
+
 }
 
 // submitting new to-do item
