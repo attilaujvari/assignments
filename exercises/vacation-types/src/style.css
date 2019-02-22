@@ -1,0 +1,13 @@
+.spotContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.location{
+    border: 1px black solid;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+.dollar{
+    text-align: center;
+}
