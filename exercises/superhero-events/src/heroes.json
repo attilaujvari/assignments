@@ -1,0 +1,25 @@
+{
+  "superHeroes": [
+    {
+      "name" : "Batman",
+      "image" : "https://res.cloudinary.com/jerrick/image/upload/f_auto,fl_progressive,q_auto,c_fit,w_768/lo6vaxv7uh7iolesbrii",
+      "catchPhrase" : "I am the vengeance, I am the night, I am BATMAN!"
+    },    {
+      "name" : "Robin",
+      "image" : "https://res.cloudinary.com/jerrick/image/upload/f_auto,fl_progressive,q_auto,c_fit,w_768/wjzkilyuniv7zcazfuns",
+      "catchPhrase" : "Holy ____ Batman!"
+    },    {
+      "name" : "The Human Torch",
+      "image" : "https://res.cloudinary.com/jerrick/image/upload/f_auto,fl_progressive,q_auto,c_fit,w_768/jlzdrq8m9facargtybfc",
+      "catchPhrase" : "Flame on!"
+    },    {
+      "name" : "Doctor Strange",
+      "image" : "https://res.cloudinary.com/jerrick/image/upload/f_auto,fl_progressive,q_auto,c_fit,w_768/zlj6dxxpldawgmzu5hx7",
+      "catchPhrase" : "By the hoary hosts of Hoggoth!"
+    },    {
+      "name" : "Green Lantern",
+      "image" : "https://res.cloudinary.com/jerrick/image/upload/f_auto,fl_progressive,q_auto,c_fit,w_768/hcan4azsnvcfqirdjbox",
+      "catchPhrase" : "In brightest day, in blackest night, no evil shall escape my sight. Let those who worship evil’s might, beware my power, GREEN LANTERN’S LIGHT!"
+    }
+  ]
+}
