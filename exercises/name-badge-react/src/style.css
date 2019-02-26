@@ -1,0 +1,57 @@
+#myForm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    border: 3px black solid;
+    padding: 40px;
+    border-radius: 10px;
+
+}
+#myForm input{
+    border: 2px black solid;
+}
+#aboutSection{
+    grid-column: 1/3;
+    height: 75px;
+}
+#submitButton{
+    grid-column: 1/3;
+    width: 100px;
+    justify-self: center;
+    background: silver;
+    border-radius: 5px;
+    border: 1px black solid;
+}
+#submitButton:hover{
+    background: lightgreen;
+    transition-duration: 0.5s;
+}
+#returnBadge{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 40px;
+
+}
+#badgeHeader{
+    background: silver;
+    margin: 0;
+    border-radius: 7px;
+    padding-left: 20px;
+    color: white;
+}
+#retOuter{
+    border: 3px black solid;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#badgeAbout{
+    grid-column: 1/3;
+    height: 75px;
+    border-radius: 5px;
+    border: 1px black solid;
+}
+#badges{
+    display: flex;
+    flex-direction: column-reverse;
+}

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9de09dc6-ab5d-4f8a-8834-8a6f42d58d87" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../superhero-events/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../superhero-events/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -138,6 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,7 +155,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,11 +212,12 @@
       <updated>1550788630579</updated>
       <workItem from="1550788631990" duration="1484000" />
       <workItem from="1550877231168" duration="8000" />
+      <workItem from="1551058327958" duration="3000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1492000" />
+    <option name="totallyTimeSpent" value="1495000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="627" y="23" width="813" height="877" extended-state="0" />

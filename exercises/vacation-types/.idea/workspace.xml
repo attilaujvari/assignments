@@ -2,23 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4074703-9634-4661-91bf-016607d94a17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../map-react/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../map-react/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../map-react/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../map-react/src/Friend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../map-react/src/FriendList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../map-react/src/Pet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../map-react/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../map-react/src/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Location.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Spots.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../penguins-communists/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../penguins-communists/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../props-intro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../props-intro/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../name-badge-react/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../name-badge-react/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../name-badge-react/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../name-badge-react/src/Form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../name-badge-react/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../name-badge-react/src/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../name-entry-react/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../name-entry-react/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../name-entry-react/src/FormInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../name-entry-react/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog_props/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog_props/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../superhero-events/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../superhero-events/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,7 +26,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -44,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -52,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
+            <state relative-caret-position="510">
               <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -61,10 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Spots.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="221">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -73,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Location.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+            <state relative-caret-position="539">
+              <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -116,7 +112,7 @@
     <option name="x" value="47" />
     <option name="y" value="23" />
     <option name="width" value="981" />
-    <option name="height" value="1057" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -127,26 +123,12 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="vacation-spots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prop-types" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vacation-spots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prop-types" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -200,22 +182,22 @@
       <option name="presentableId" value="Default" />
       <updated>1550783328965</updated>
       <workItem from="1550783330154" duration="2963000" />
+      <workItem from="1551058381352" duration="750000" />
+      <workItem from="1551143891946" duration="585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2963000" />
+    <option name="totallyTimeSpent" value="4298000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="23" width="981" height="1057" extended-state="0" />
+    <frame x="47" y="23" width="981" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.3755796" visible="true" weight="0.15104167" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.3755796" visible="true" weight="0.15104167" />
       <window_info id="Structure" order="1" sideWeight="0.6244204" side_tool="true" weight="0.190625" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32953367" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32953367" />
@@ -223,6 +205,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.07388535" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -235,13 +221,6 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Location.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -252,13 +231,13 @@
     <entry file="file://$PROJECT_DIR$/src/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
+        <state relative-caret-position="510">
           <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -268,11 +247,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Spots.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="221">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Location.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
         </state>
       </provider>
     </entry>
