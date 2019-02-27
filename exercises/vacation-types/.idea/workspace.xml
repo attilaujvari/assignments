@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4074703-9634-4661-91bf-016607d94a17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../name-badge-react/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../name-badge-react/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../name-badge-react/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../name-badge-react/src/Form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../name-badge-react/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../name-badge-react/src/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../name-entry-react/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../name-entry-react/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../name-entry-react/src/FormInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../name-entry-react/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog_props/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog_props/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../superhero-events/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../superhero-events/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../name-badge-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../name-badge-react/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -192,7 +180,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="23" width="981" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.3755796" visible="true" weight="0.15104167" />
       <window_info id="Structure" order="1" sideWeight="0.6244204" side_tool="true" weight="0.190625" />

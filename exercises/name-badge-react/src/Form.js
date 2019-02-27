@@ -45,7 +45,7 @@ function Form(props) {
                 value={props.phone}
                 onChange={props.handleChange}
                 placeholder="Phone number"
-                pattern="[0-9]{9}"
+                pattern="[0-9]{10}"
                 required
             />
             <input
