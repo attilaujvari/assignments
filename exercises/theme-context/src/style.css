@@ -1,0 +1,12 @@
+.home-fun{
+    background-image: url("http://images6.fanpop.com/image/photos/35500000/Silly-Kitty-funny-pictures-35524868-480-412.jpg");
+    height: 450px;
+    color: green;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.home-boring{
+    background: black;
+    color: white;
+}
