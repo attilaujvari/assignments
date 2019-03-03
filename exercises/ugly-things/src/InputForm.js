@@ -1,10 +1,11 @@
 import React from 'react'
 
 const InputForm = props => {
+    console.log(props)
     const { handleChange, handleSubmit, inputs: { title, imgUrl, description }} = props
     return (
         <form onSubmit={handleSubmit}>
-            <h1>{props.formTitle}</h1>
+            <h1>H1 Title in InputForm</h1>
             <input
                 type="text"
                 onChange={handleChange}
