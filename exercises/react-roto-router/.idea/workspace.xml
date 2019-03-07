@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f08c158d-a1f4-40f9-bd80-92ce3d749cd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hit-list/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hit-list/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hit-list/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hit-list/src/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hit-list/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hit-list/src/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lifecycle-methods-window-events/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lifecycle-methods-window-events/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lifecycle-methods-window-events/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lifecycle-methods-window-events/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../multiplication-table/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../multiplication-table/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../name-badge-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../name-badge-react/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../adjacent-difference/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../adjacent-difference/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ugly-things/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ugly-things/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -136,7 +125,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="556" />
-    <option name="y" value="221" />
+    <option name="y" value="203" />
     <option name="width" value="884" />
     <option name="height" value="877" />
   </component>
@@ -216,14 +205,15 @@
       <workItem from="1551203219563" duration="3490000" />
       <workItem from="1551312249066" duration="15000" />
       <workItem from="1551312479059" duration="824000" />
+      <workItem from="1551739777677" duration="95000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4329000" />
+    <option name="totallyTimeSpent" value="4424000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="556" y="221" width="884" height="877" extended-state="0" />
+    <frame x="556" y="203" width="884" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22711472" />
@@ -232,7 +222,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32953367" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32866243" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -240,7 +230,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.26751593" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.26751593" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
