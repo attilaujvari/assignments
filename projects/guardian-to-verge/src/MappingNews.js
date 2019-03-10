@@ -6,7 +6,7 @@ class MappingNews extends Component{
 
     render() {
         return (
-            <div>
+            <div className={"articleContainer"}>
                 {this.props.fetchedData.map(item =>
                     <NewsItem {...item} key={item.url}/>)}
             </div>

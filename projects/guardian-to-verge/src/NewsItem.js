@@ -8,13 +8,15 @@ const NewsItem = (props) => {
     }
     if (multimedia.length > 0) {
         background.backgroundImage = `url(${multimedia[4].url})`
+        console.log(props)
     }
 
     return (
-        <div>
+        <div className={"articleItem"}>
             <h4>{title}</h4>
             <p>{abstract}</p>
-            <div className="pictureArticle" style={multimedia[4] ? {...background, height: 300} : {display: "none"}}/>
+            {multimedia[4] ? <img className={"articlePicture"} src={`${multimedia[4].url}`} alt={`${multimedia[4].caption}`} />: null}
+            <div className={"byline"}>{props.byline}</div>
         </div>
     );
 }

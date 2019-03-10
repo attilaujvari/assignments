@@ -2,16 +2,131 @@
     box-sizing: border-box;
     margin: 0;
 }
-
-.pictureArticle{
-    background-size: contain;
-    background-repeat: no-repeat;
+body{
+    background: black;
+    color: ghostwhite;
+    text-rendering: optimizeLegibility;
+    font-family: Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
+.articlePicture{
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+}
+
+#schoolLogo{
+    height: 50px;
+    width: 50px;
+}
+.articleItem{
+    background-color: black;
+}
+.articleItem h4, p {
+    padding: 7px;
+}
+.articleItem h4{
+    text-transform: uppercase;
+    text-align: center;
+}
+.articleContainer {
+    background-image: linear-gradient(90deg, rgb(247, 198, 38) 15%, rgb(246, 140, 47) 40%, rgb(229, 18, 125) 85%);
+    padding: 3px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.articleContainer :nth-child(1) h4{
+    font-size: 6vw;
+}
+.byline{
+    text-align: right;
+    margin-right: 12px;
+    color: #e5127d;
+    font-weight: lighter;
+}
 .header{
     background-position: 50%;
-    background-image: url("My Post.jpg");
+    background-image: url("https://www.youngmoorelaw.com/wp-content/uploads/2017/09/Business-masthead-Wood-table-top-and-blur-glass-window-wall-building-banner-background-662984808_5360x2200.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 150px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 4vw;
+    color: ghostwhite;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.nav{
+    background: black;
+    color: ghostwhite;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    padding: 9px 12px 8px;
+}
+.nav a:hover{
+    background-color: #708090;
+    transition-duration: 0.25s;
+}
+
+/*            --------------            */
+
+@media only screen and (max-width: 500px) {
+    .header{
+        font-size: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+    #schoolLogo{
+        transition-duration: 0.5s;
+    }
+    .articleItem{
+        margin-bottom: 3px;
+    }
+}
+
+@media only screen and (min-width: 501px){
+    .articleContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 3px;
+    }
+    .articleContainer :nth-child(1){
+        grid-column: 1/3;
+    }
+    #schoolLogo{
+        height: 60px;
+        width: 60px;
+        transition-duration: 0.5s;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .articleContainer{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .articleContainer :nth-child(4){
+        grid-column: 2/4;
+    }
+    #schoolLogo{
+        height: 75px;
+        width: 75px;
+    }
 }
