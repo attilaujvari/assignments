@@ -4,7 +4,7 @@ import MappingNews from "../MappingNews";
 
 class Home extends Component {
     componentDidMount() {
-        this.props.getData()
+        this.props.getData("topstories/v2/world")
     }
 
     render() {

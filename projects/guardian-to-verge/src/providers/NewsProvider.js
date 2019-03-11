@@ -13,8 +13,8 @@ class NewsProvider extends Component{
         }
     }
 
-    getData = () => {
-        axios.get(`https://api.nytimes.com/svc/topstories/v2/world.json?api-key=${API}`)
+    getData = (link) => {
+        axios.get(`https://api.nytimes.com/svc/${link}.json?api-key=${API}`)
             .then(res => this.setState({fetchedData: res.data.results}))
             .catch(err => console.log(err))
     }
