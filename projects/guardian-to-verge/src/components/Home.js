@@ -3,7 +3,9 @@ import {withData} from "../providers/NewsProvider";
 import MappingNews from "../MappingNews";
 
 class Home extends Component {
+
     componentDidMount() {
+        console.log(this.props)
         this.props.getData("topstories/v2/world")
     }
 

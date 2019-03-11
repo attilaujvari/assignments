@@ -5,7 +5,6 @@ import App from "./App.js"
 import "./style.css"
 import NewsProvider from "./providers/NewsProvider.js";
 
-
 ReactDOM.render(
         <BrowserRouter>
             <NewsProvider>
@@ -13,3 +12,8 @@ ReactDOM.render(
             </NewsProvider>
         </BrowserRouter>,
 document.getElementById("root"))
+
+// To-dos:
+    // Fade in each article
+    // Fix footer fade upon page load
+    // Navbar toggle dropdown per topic

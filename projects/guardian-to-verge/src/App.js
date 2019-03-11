@@ -1,24 +1,42 @@
-import React from "react"
-import {Switch, Route} from "react-router-dom";
+import React, {Component} from "react"
+import {Switch, Route, withRouter} from "react-router-dom";
 import Home from "./components/Home.js";
 import Nav from "./components/Nav.js"
 import Header from "./components/Header";
 import Feed from "./components/Feed";
 import Footer from "./components/Footer";
+import Topic from "./components/Topic"
+import {PageFade} from "./transitions"
 
-const App = () => {
+class App extends Component {
+    constructor(){
+        super();
+        this.state = {
+            navToggle: false
+        }
+    }
 
-    return(
-        <div>
-            <Header/>
-            <Nav />
-            <Switch>
-                <Route exact path="/" component={Home}/>
-                <Route path="/feed" component={Feed}/>
-            </Switch>
-            <Footer/>
-        </div>
-    )
+    toggler = () => this.setState(prevState => ({ navToggle: !prevState.navToggle }))
+
+    render(){
+        return(
+            <div>
+                <Header/>
+                <Nav
+                    navToggle={this.state.navToggle}
+                    toggler={this.toggler}
+                />
+                <PageFade location={this.props.location}>
+                    <Switch location={this.props.location}>
+                        <Route exact path="/" component={Home}/>
+                        <Route path="/feed" component={Feed}/>
+                        <Route path="/topic" component={Topic}/>
+                    </Switch>
+                </PageFade>
+                <Footer/>
+            </div>
+        )
+    }
 }
 
-export default App
+export default withRouter(App)

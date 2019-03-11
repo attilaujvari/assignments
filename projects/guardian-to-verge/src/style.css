@@ -10,7 +10,6 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 .articlePicture{
     background-size: contain;
     background-repeat: no-repeat;
@@ -18,7 +17,6 @@ body{
     overflow: hidden;
     width: 100%;
 }
-
 #schoolLogo{
     height: 50px;
     width: 50px;
@@ -36,12 +34,19 @@ body{
     text-align: center;
     font-size: 24px;
 }
+
 .articleContainer {
     background-image: linear-gradient(90deg, rgb(247, 198, 38) 15%, rgb(246, 140, 47) 40%, rgb(229, 18, 125) 85%);
     padding: 3px;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
+}
+.byline{
+    text-align: right;
+    margin-right: 12px;
+    color: #e5127d;
+    font-weight: lighter;
 }
 .articleContainer :hover{
     background-color: #202020;
@@ -50,17 +55,12 @@ body{
 }
 .articleContainer :nth-child(4n+0){
     background: none;
-    color: black;
+    /*color: black;*/
 }
 .articleContainer :nth-child(4n+0) .byline{
     color: black;
 }
-.byline{
-    text-align: right;
-    margin-right: 12px;
-    color: #e5127d;
-    font-weight: lighter;
-}
+
 .header{
     background-position: 50%;
     background-image: url("https://cdn.vox-cdn.com/uploads/chorus_asset/file/7383215/Masthead_DB_1.0.png");
@@ -87,6 +87,9 @@ body{
     align-items: center;
     text-transform: uppercase;
     font-size: 20px;
+    position: sticky;
+    top: 0;
+    padding-left: 20px;
 }
 .nav a{
     text-decoration: none;
@@ -96,6 +99,28 @@ body{
 .nav a:hover{
     background-color: #708090;
     transition-duration: 0.25s;
+}
+.nav div{
+    text-decoration: none;
+    color: white;
+    padding: 9px 12px 8px;
+}
+.nav div:hover{
+    background-color: #708090;
+    transition-duration: 0.25s;
+}
+.navDrop{
+    display: flex;
+    position: absolute;
+    background: black;
+}
+
+.navDrop-open {
+
+}
+
+.navDrop-closed {
+    display: none;
 }
 
 .footer{
@@ -156,4 +181,35 @@ body{
         height: 75px;
         width: 75px;
     }
+}
+
+/* Page Fade Transition */
+.page-fade-appear {
+    opacity: 0;
+    position: absolute;
+}
+
+.page-fade-appear.page-fade-appear-active {
+    opacity: 1;
+    transition: opacity 1s linear;
+}
+
+.page-fade-enter {
+    opacity: 0;
+    position: absolute;
+}
+
+.page-fade-enter.page-fade-enter-active {
+    opacity: 1;
+    transition: opacity 1s linear;
+}
+
+.page-fade-exit {
+    opacity: 1;
+    position: absolute;
+}
+
+.page-fade-exit.page-fade-exit-active {
+    opacity: 0;
+    transition: opacity 1s linear;
 }
