@@ -59,7 +59,6 @@ app.put("/people/:_id", (req, res) => {
     const foundPerson = people.find(person => person._id === req.params._id)
     // update object
     Object.assign(foundPerson, req.body)
-
     res.send(foundPerson)
 })
 

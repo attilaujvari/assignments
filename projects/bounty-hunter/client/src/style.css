@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+h1, h2, h3, h4{
+    text-align: center;
+    color: #6497b1;
+}
+p{
+    color: #6497b1;
+}
+body{
+    background-image: linear-gradient(to right, #011f4b 0%, #005b96 100%);
+}
+.bountyContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.bountyItem{
+    margin: 5px;
+    padding: 5px;
+    border: grey 1px dashed;
+    max-width: 300px;
+
+}
+.bountyContainer :first-child {
+    flex: 1 0 100%;
+}
+.bountyImage{
+    width: 100%;
+}
