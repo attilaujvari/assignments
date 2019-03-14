@@ -12,11 +12,6 @@ app.get('/', (req, res) => {
 
 app.use("/bounties", require("./routes/bounties.js"))
 
-// app.get("*", (req, res) => {
-//     res.send("No doggie here. But for real, your GET request is messed up. Or it's me, dunno... I'm in server.js")
-//     console.log(req.params)
-// })
-
 app.listen(port, () => {
     console.log("The server is listening on port " + port)
 })

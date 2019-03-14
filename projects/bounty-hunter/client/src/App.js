@@ -1,32 +1,56 @@
 import React, {Component} from "react"
-import axios from "axios"
-import MappingBounties from "./MappingBounties.js"
+import {withBounty} from "./context/BountyProvider";
+import MappingBounties from "./components/MappingBounties.js"
 
-export default class App extends Component {
+
+class App extends Component {
     constructor(){
         super()
         this.state = {
-            fetchedData: []
+            firstName : "",
+            lastName : "",
+            isLiving : true,
+            bountyAmount: 0,
+            type : "",
+            imgUrl: ""
         }
     }
 
-    componentDidMount() {
-        this.getData()
+    handleChange = e => {
+        const value = e.target.type === "checkbox"
+            ? e.target.checked
+            : e.target.value
+        this.setState({
+            [e.target.name]:value
+        })
     }
 
-    getData = () => {
-        axios.get("/bounties")
-            .then(res => (this.setState({fetchedData : res.data})))
-            .catch(err => console.log(err))
+    handleSubmit = e => {
+        e.preventDefault()
+        const newBounty = {
+            firstName : this.state.firstName,
+            lastName : this.state.lastName,
+            isLiving : this.state.isLiving,
+            bountyAmount: this.state.bountyAmount,
+            type : this.state.type,
+            imgUrl: this.state.imgUrl
+        }
+        this.props.addBounty(newBounty)
+        this.setState({ firstName : "", lastName : "", isLiving : true, bountyAmount: 0, type : "", imgUrl: ""})
+    }
+
+    componentDidMount() {
+        this.props.getData()
     }
 
     render() {
-        console.log(this.state.fetchedData)
         return(
-            <div>
+            <div className={"bodyBackground"}>
                 <h1>Bounty Hunter's Nest</h1>
-                <MappingBounties  fetchedData = {this.state.fetchedData}/>
+                <MappingBounties  fetchedData = {this.props.fetchedData} deleteBounty={this.props.deleteBounty}/>
             </div>
         )
     }
 }
+
+export default withBounty(App)

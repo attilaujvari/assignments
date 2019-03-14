@@ -4,29 +4,91 @@
 }
 h1, h2, h3, h4{
     text-align: center;
-    color: #6497b1;
+    color: orangered;
+    text-shadow: #011f4b 1px 1px;
+}
+h1{
+    padding-top: 75px;
+    font-size: 4em;
+    text-shadow: #011f4b 2px 2px;
 }
 p{
-    color: #6497b1;
+    color: #b3cde0;
+    text-shadow: #011f4b 1px 1px;
 }
 body{
-    background-image: linear-gradient(to right, #011f4b 0%, #005b96 100%);
+    background: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+.bodyBackground{
+    background-image: url("https://starwarsblog.starwars.com/wp-content/uploads/2015/03/EP5_BTS_508-2400x1200-309457362350.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 .bountyContainer{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
+    background: black;
+    transform: translateY(60vh);
+}
+.bountyContainer :hover{
+
 }
 .bountyItem{
+    border: silver 1px solid;
+    border-radius: 10px;
+    max-width: 350px;
+    backdrop-filter: blur(2px);
     margin: 5px;
+    background-color: #111111;
+    box-shadow: dimgrey 1px 1px;
+}
+.bountyItem h3, p{
     padding: 5px;
-    border: grey 1px dashed;
-    max-width: 300px;
-
 }
 .bountyContainer :first-child {
     flex: 1 0 100%;
 }
 .bountyImage{
     width: 100%;
+}
+.buttonDelete{
+    background-color: rgba(255,10,10,0.6);
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    width: 62px;
+    margin-bottom:5px;
+    border-radius: 10px;
+    font-size: 1em;
+    align-self: baseline;
+    border: silver 1px solid;
+}
+.buttonDelete:hover{
+    transform: translate3d(2px, 2px, 2px);
+    transition-duration: 0.3s;
+    background-color: rgba(255,10,10,1);
+}
+.buttonEdit{
+    background-color: rgba(255, 127, 80, 0.8);
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    width: 62px;
+    margin-bottom:5px;
+    border-radius: 10px;
+    font-size: 1em;
+    border: silver 1px solid;
+}
+.buttonEdit:hover{
+    transform: translate3d(2px, 2px, 2px);
+    transition-duration: 0.3s;
+    background-color: rgba(255, 127, 80, 1);
 }
