@@ -45,9 +45,13 @@ class App extends Component {
 
     render() {
         return(
-            <div className={"bodyBackground"}>
-                <h1>Bounty Hunter's Nest</h1>
-                <MappingBounties  fetchedData = {this.props.fetchedData} deleteBounty={this.props.deleteBounty}/>
+            <div className={"wrapper"}>
+                <div className={"section parallax"}>
+                </div>
+                <div className={"bodyBackground"}>
+                    <h1>Bounty Hunter's Nest</h1>
+                    <MappingBounties  fetchedData = {this.props.fetchedData} deleteBounty={this.props.deleteBounty}/>
+                </div>
             </div>
         )
     }

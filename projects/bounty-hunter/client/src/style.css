@@ -8,8 +8,7 @@ h1, h2, h3, h4{
     text-shadow: #011f4b 1px 1px;
 }
 h1{
-    padding-top: 75px;
-    font-size: 4em;
+    font-size: 8vw;
     text-shadow: #011f4b 2px 2px;
 }
 p{
@@ -17,17 +16,41 @@ p{
     text-shadow: #011f4b 1px 1px;
 }
 body{
-    background: black;
+    background-image: url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-1.2.1&auto=format&fit=crop&w=1427&q=80");
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    background-attachment: fixed;
+}
+.wrapper{
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 1px;
+}
+.section {
+    position: relative;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    color: white;
+}
+.parallax::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateZ(-1px) scale(2);
+    background-size: 100%;
+    z-index: -1;
+    background-image: url("https://starwarsblog.starwars.com/wp-content/uploads/2015/03/EP5_BTS_508-2400x1200-309457362350.jpg");
+    background-repeat: no-repeat;
 }
 .bodyBackground{
-    background-image: url("https://starwarsblog.starwars.com/wp-content/uploads/2015/03/EP5_BTS_508-2400x1200-309457362350.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+
 }
 .bountyContainer{
     position: relative;
@@ -35,11 +58,9 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    background: black;
-    transform: translateY(60vh);
-}
-.bountyContainer :hover{
-
+    transform: translateY(50vh);
+    background-color: rgba(0,0,0,0.3);
+    box-shadow: 0 -10px 25px rgba(0,0,0,0.25);
 }
 .bountyItem{
     border: silver 1px solid;
@@ -47,7 +68,7 @@ body{
     max-width: 350px;
     backdrop-filter: blur(2px);
     margin: 5px;
-    background-color: #111111;
+    background-color: rgba(0,0,0,0.5);
     box-shadow: dimgrey 1px 1px;
 }
 .bountyItem h3, p{
@@ -70,6 +91,8 @@ body{
     font-size: 1em;
     align-self: baseline;
     border: silver 1px solid;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .buttonDelete:hover{
     transform: translate3d(2px, 2px, 2px);
@@ -86,6 +109,8 @@ body{
     border-radius: 10px;
     font-size: 1em;
     border: silver 1px solid;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .buttonEdit:hover{
     transform: translate3d(2px, 2px, 2px);

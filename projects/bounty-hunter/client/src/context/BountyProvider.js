@@ -40,7 +40,8 @@ class BountyProvider extends Component{
             <BountyContext.Provider
                 value={{fetchedData: this.state.fetchedData,
                 getData:this.getData,
-                deleteBounty: this.deleteBounty}}
+                deleteBounty: this.deleteBounty,
+                addBounty: this.addBounty}}
                     >
                 {this.props.children}
             </BountyContext.Provider>
