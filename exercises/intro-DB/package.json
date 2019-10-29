@@ -12,7 +12,7 @@
   "dependencies": {
     "create-react-app": "^2.1.8",
     "express": "^4.16.4",
-    "mongoose": "^5.4.19",
+    "mongoose": "^5.7.5",
     "morgan": "^1.9.1",
     "npm": "^6.9.0"
   }
